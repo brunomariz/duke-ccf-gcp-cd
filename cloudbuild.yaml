@@ -1,8 +1,6 @@
-- steps:
-  - name: gcr.io/your-project/your-custom-builder
-    entrypoint: "bash"
-    args: 
-      - "-c"
-      - |
-        cd projects
+steps:
+    - name: 'python'
+      entrypoint: 'python'
+      args: ['-m', 'pip', 'install', '--upgrade', 'pip']
+
 timeout: "1600s"
