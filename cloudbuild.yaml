@@ -1,7 +1,5 @@
 steps:
   - name: "ubuntu"
-  args:
-    - |
-    - cd projects
+  args: ["cd", "projects"]
 
 timeout: "1600s"
