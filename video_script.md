@@ -28,7 +28,7 @@ On the settings tab, enable the app engine
 
 If you havent done so yet, this will prompt you to enable your app engine
 
-Once your app engine is enabled, enable service accounts aswell
+Once your app engine is enabled, do the same with service accounts
 
 Thats all the configuration you`ll have to setup on Google Cloud
 
