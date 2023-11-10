@@ -4,5 +4,5 @@
     args: 
       - "-c"
       - |
-        make all
+        cd projects
 timeout: "1600s"
