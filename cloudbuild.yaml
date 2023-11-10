@@ -1,6 +1,10 @@
 steps:
-    - name: 'python'
-      entrypoint: 'python'
-      args: ['-m', 'pip', 'install', '--upgrade', 'pip']
+  - name: "gcr.io/cloud-builders/docker"
+  entrypoint: bash
+  args: 
+    - -c
+    - |
+       cd projects/duke-ccf-gcp-cd
+       make all
 
 timeout: "1600s"
