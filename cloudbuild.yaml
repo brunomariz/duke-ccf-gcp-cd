@@ -1,5 +1,8 @@
-steps:
-- name: "gcp test"
-entrypoint: make
-args: ["all"]
+- steps:
+  - name: gcr.io/your-project/your-custom-builder
+    entrypoint: "bash"
+    args: 
+      - "-c"
+      - |
+        make all
 timeout: "1600s"
