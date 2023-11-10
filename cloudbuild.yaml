@@ -1,4 +1,5 @@
 steps:
-- name: "gcr.io/cloud-builders/gcloud"
-  args: ["make", "test"]
+- name: "gcp test"
+  run: |
+    make test
 timeout: "1600s"
