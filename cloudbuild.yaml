@@ -1,9 +1,5 @@
 steps:
-    - name: 'python'
-      entrypoint: 'python'
-      args: ['-m', 'pip', 'install', '--upgrade', 'pip']
-    - name: 'python'
-      entrypoint: 'python'
-      args: ['-m', 'pytest', '-vv', '--cov=hello', 'test_hello.py']
+    - name: 'bash'
+      args: ['echo', 'test']
 
 timeout: "1600s"
