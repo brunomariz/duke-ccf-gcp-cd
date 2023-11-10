@@ -38,11 +38,11 @@ Optionally, you can also setup github actions to test your code
 
 To do this, simply head into the Actions tab and create a yaml file with instructions on what to run when code is pushed
 
-One last thisg that is missing before your google cloud build works properly, is to create a cloudbuild.yaml file describing what the cloud server should do on trigger events
+One last thing that is missing before your google cloud build works properly, is to create a cloudbuild.yaml file describing what the cloud server should do on trigger events
 
 Now you can modify your code to see the CD in action, for example, creating an error on your function and checking if the test fails, then removing the error you created to see if the test succeeds
 
-The last thing you can do now to make sure everyone knows you`re a devops expert when they check out your repo is to add a status badge to your readme
+The last thing you can do now to make sure everyone knows you`re a devops expert when they check out your repo by adding a status badge to your readme
 
 This was how you can create simple automated tests using CD tools from google cloud and github
 
