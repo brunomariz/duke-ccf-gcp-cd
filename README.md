@@ -1,6 +1,6 @@
 [![GCP Python 3.7](https://github.com/brunomariz/duke-ccf-gcp-cd/actions/workflows/main.yml/badge.svg)](https://github.com/brunomariz/duke-ccf-gcp-cd/actions/workflows/main.yml)
 
-# Duke Cloud Computing Foundations - GCP CD
+# Duke - Cloud Computing Foundations - GCP CD
 
 Demo repo for GCP CD assignment of Cloud Computing Foundations course.
 
