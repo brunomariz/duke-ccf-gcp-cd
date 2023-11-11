@@ -6,6 +6,11 @@ Demo repo for GCP CD assignment of Cloud Computing Foundations course.
 
 Video script: [video_script.md](video_script.md)
 
+Demo Video created as assignment for Cloud Computing Foundations course by Duke University on Coursera:
+
+[![Video thumbnail consisting of Google Cloud Build and GitHub Actions logos](https://img.youtube.com/vi/GznERAg7AsY/0.jpg)](https://www.youtube.com/watch?v=GznERAg7AsY)
+
+
 ## Video notes
 
 ### 1 Create git repository
